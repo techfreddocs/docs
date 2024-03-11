@@ -1,16 +1,16 @@
 ---
-title: 'Quickstart'
-description: 'Start building awesome documentation in under 5 minutes'
+title: 'Your Toolbox'
+description: 'Items to help you manage the technology at Life Time Work'
 ---
 
-## Setup your development
+## Important Tools and Resources
 
-Learn how to update your docs locally and and deploy them to the public.
+Tools to help you with member creation at Life Time Work
 
-### Edit and preview
+### Creaing Credentials
 
 <AccordionGroup>
-  <Accordion icon="github" title="Clone your docs locally">
+  <Accordion icon="laptop" title="Microsoft Remote Desktop">
     During the onboarding process, we created a repository on your Github with
     your docs content. You can find this repository on our
     [dashboard](https://dashboard.mintlify.com). To clone the repository
@@ -18,7 +18,15 @@ Learn how to update your docs locally and and deploy them to the public.
     [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
     in your terminal.
   </Accordion>
-  <Accordion icon="rectangle-terminal" title="Preview changes">
+  <Accordion icon="lock" title="Password Generator">
+    Previewing helps you make sure your changes look as intended. We built a
+    command line interface to render these changes locally. 1. Install the
+    [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
+    documentation changes locally with this command: ``` npm i -g mintlify ```
+    2. Run the following command at the root of your documentation (where
+    `mint.json` is): ``` mintlify dev ```
+  </Accordion>
+   <Accordion icon="note-sticky" title="Secure Notes">
     Previewing helps you make sure your changes look as intended. We built a
     command line interface to render these changes locally. 1. Install the
     [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
@@ -48,39 +56,3 @@ Learn how to update your docs locally and and deploy them to the public.
 </Accordion>
 
 </AccordionGroup>
-
-## Update your docs
-
-Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
-
-<CardGroup>
-
-<Card title="Style Your Docs" icon="paintbrush" href="/settings/global">
-  Add flair to your docs with personalized branding.
-</Card>
-
-<Card
-  title="Add API Endpoints"
-  icon="square-code"
-  href="/api-playground/configuration"
->
-  Implement your OpenAPI spec and enable API user interaction.
-</Card>
-
-<Card
-  title="Integrate Analytics"
-  icon="chart-mixed"
-  href="/analytics/supported-integrations"
->
-  Draw insights from user interactions with your documentation.
-</Card>
-
-<Card
-  title="Host on a Custom Domain"
-  icon="browser"
-  href="/settings/custom-domain/subdomain"
->
-  Keep your docs on your own website's subdomain.
-</Card>
-
-</CardGroup>
