@@ -27,8 +27,8 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Internet",
+      "url": "internet"
     }
   ],
   "anchors": [
@@ -69,19 +69,13 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "internet",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "internet/test"
       ]
     }
+    
+   
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
